@@ -11,15 +11,19 @@ public class randomIntegerListGenerator {
             System.out.println("i = " + i);
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("Fizzbuzz");
+                System.out.println();
                 i++;
             } else if (i % 3 == 0) {
                 System.out.println("Fizz");
+                System.out.println();
                 i++;
             } else if (i % 5 == 0) {
                 System.out.println("Buzz");
+                System.out.println();
                 i++;
-            } else if (i % 5 != 0 && i % 3 != 0) {
+            } else {
                 System.out.println("Number " + i + " is not fizzy.");
+                System.out.println();
             }
         }
     }
