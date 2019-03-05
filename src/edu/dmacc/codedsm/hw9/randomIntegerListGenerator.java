@@ -9,7 +9,6 @@ public class randomIntegerListGenerator {
         ArrayList<Integer> integers = generateIntegers(20);
         for (int i : integers) {
             System.out.println("i = " + i);
-
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("Fizzbuzz");
                 i++;
@@ -34,5 +33,4 @@ public class randomIntegerListGenerator {
         }
         return xs;
     }
-
 }
