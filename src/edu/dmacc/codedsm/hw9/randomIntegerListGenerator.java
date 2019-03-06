@@ -9,7 +9,7 @@ public class randomIntegerListGenerator {
         ArrayList<Integer> integers = generateIntegers(20);
         for (int i : integers) {
             System.out.println("i = " + i);
-            if (i % 15 == 0) { //a number divided by 3 and 5 is also divisible by 15;
+            if (i % 15 == 0) { //a number divisible by 3 and 5 is also divisible by 15;
                 System.out.println("Fizzbuzz");
                 System.out.println();
                 i++;
